@@ -95,9 +95,11 @@
 <script>
   function noClicked() {
     document.getElementById("content").innerHTML = `
-      <img src="Jump Bear GIF - Jump Bear Cute - Discover & Share GIFs.gif">
-      <p>Are you sure?</p>
-      <button class="big-yes" onclick="yesClicked()">YES 💖</button>
+  <img src="Jump Bear GIF - Jump Bear Cute - Discover & Share GIFs.gif" alt="Bear with roses">
+  <h1>Will you be my Valentine? 💖</h1>
+
+  <button id="yes" onclick="yesClicked()">Yes 💕</button>
+  <button id="no" onclick="noClicked()">Are you sure, I will be very very very sad 🙃</button>
     `;
   }
 
@@ -114,7 +116,7 @@
         flex-direction:column;
       ">
         <img src="besito-catlove.gif" style="width:220px; margin-bottom:20px;">
-        <h1>Yay! 🥰<br>Now, I am happy 💕</h1>
+        <h1>Yay! 🥰<br>Love you, My Sweet Potato 🥔 💕</h1>
       </div>
     `;
   }
